@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-image: url(./img/harryPoter.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+}
+
+.fundo {
+    background-image: url(./img/harrypotterfundo.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+ 
+body {
+    background-color: #101522;  
+    color: white;
+    font-family: Arial; 
+} 
+
+.inicio{
+    display: flex;
+    flex-direction: column; 
+    gap: 11px;
+    background-color:#101522; 
+    margin: 20px;
+    padding: 20px;
+}
+
+.imagem-castelo{
+    width: 100%;
+}
+
+h2 { 
+    font-size: 15px; 
+    color: #D9B66F; 
+    text-align: center;
+}
+
+h3 { 
+     color: #FFF2B2; 
+    font-size: 10px; 
+    text-align: center;
+} 
+
+p{
+    font-size: 12px;
+} 
+
+.botao{ 
+    background-color: #A67C32; 
+    color: #4c3920; 
+    padding: 13px; 
+    border: none;
+    border-radius: 30px;
+}
+.fantasma{
+    height: 40px; 
+}
+
+.casas {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px;
+    width: 100%;
+} 
+
+.casas img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    background-color: #10152200;
+} 
